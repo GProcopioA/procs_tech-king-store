@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+   /*  background-image: url('/assets/logo3.png');
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.logo-and-buttons {
+    display: flex; /* Adiciona flexbox para alinhar logo e botões */
+    flex-direction: column; /* Alinha logo e botões em coluna em telas menores */
+    align-items: center; /* Centraliza logo e botões horizontalmente */
+  }
+
+  .frase-loja {
+    color: white; /* Define a cor da frase como branco */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da frase */
+    padding: 0 10px; /* Adiciona espaçamento horizontal para a frase */
+    text-align: center; /* Centraliza o texto da frase */
+    //font-family: 'Nome da Fonte', sans-serif; /* Adicione esta linha */
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-group {
+      flex-direction: row;
+    }
+  }
