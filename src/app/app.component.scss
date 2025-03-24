@@ -13,7 +13,7 @@ body {
 
   .frase-loja {
     color: white; /* Define a cor da frase como branco */
-    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
     margin-bottom: 20px; /* Adiciona espaço abaixo da frase */
     padding: 0 10px; /* Adiciona espaçamento horizontal para a frase */
     text-align: center; /* Centraliza o texto da frase */
@@ -42,11 +42,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 15px 30px;
-    background-color: #f0f0f0;
+    background-color: black;
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 16px;
   }
   
@@ -54,6 +54,7 @@ body {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    filter: invert(100%);
   }
   
   @media (min-width: 768px) {
